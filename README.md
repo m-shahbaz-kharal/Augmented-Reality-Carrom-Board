@@ -32,29 +32,29 @@ For making a physical glove controller, here's what you'll need:
 * ESP8266 Wifi Module ([this one](https://www.sparkfun.com/products/13678))
 
 #### Pin Connections
-**Arduino -> ESP8266**
-* 12 -> TX
-* 13 -> RX
-* 3.3v -> Vcc and EN
-* GND -> GND
+* **Arduino -> ESP8266**
+  * 12 -> TX
+  * 13 -> RX
+  * 3.3v -> Vcc and EN
+  * GND -> GND
 
-1. **Arduino -> Player 1 Glove**
-* 2 -> Middle Finger of Glove
-* 3 -> Little Finger of Glove
-2. **Arduino -> Player 1 MPU6050**
-* 3.3 -> Vcc
-* GND -> GND
-* A4 -> AD0
-* A5 -> SCL
+* **Arduino -> Player 1 Glove**
+  * 2 -> Middle Finger of Glove
+  * 3 -> Little Finger of Glove
+* **Arduino -> Player 1 MPU6050**
+  * 3.3 -> Vcc
+  * GND -> GND
+  * A4 -> AD0
+  * A5 -> SCL
 
-3. **Arduino -> Player 2 Glove**
-* 8 -> Middle Finger of Glove
-* 9 -> Little Finger of Glove
-4. **Arduino -> Player 2 MPU6050**
-* 3.3 -> Vcc
-* GND -> GND
-* A4 -> SDA
-* A5 -> SCL
+* **Arduino -> Player 2 Glove**
+  * 8 -> Middle Finger of Glove
+  * 9 -> Little Finger of Glove
+* **Arduino -> Player 2 MPU6050**
+  * 3.3 -> Vcc
+  * GND -> GND
+  * A4 -> SDA
+  * A5 -> SCL
 
 #### Running it all
 After installing the APK to your Android device, uploading Arduino code to Arduino UNO and making these connections between Arduino and your gloves, follow these steps:
