@@ -38,19 +38,19 @@ For making a physical glove controller, here's what you'll need:
 * 3.3v -> Vcc and EN
 * GND -> GND
 
-**Arduino -> Player 1 Glove**
+1. **Arduino -> Player 1 Glove**
 * 2 -> Middle Finger of Glove
 * 3 -> Little Finger of Glove
-**Arduino -> Player 1 MPU6050**
+2. **Arduino -> Player 1 MPU6050**
 * 3.3 -> Vcc
 * GND -> GND
 * A4 -> AD0
 * A5 -> SCL
 
-**Arduino -> Player 2 Glove**
+3. **Arduino -> Player 2 Glove**
 * 8 -> Middle Finger of Glove
 * 9 -> Little Finger of Glove
-**Arduino -> Player 2 MPU6050**
+4. **Arduino -> Player 2 MPU6050**
 * 3.3 -> Vcc
 * GND -> GND
 * A4 -> SDA
