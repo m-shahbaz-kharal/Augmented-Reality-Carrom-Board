@@ -1,1 +1,0 @@
-When Add Sensor Data Remove Image Target Behaviour
