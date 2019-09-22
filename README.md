@@ -26,7 +26,7 @@ To make changes according to your need open **AR Carrom Board** in Unity (2017.3
 ### Physical Glove Controller
 For making a physical glove controller, here's what you'll need:
 * 2 pairs of cloth gloves
-* Conductive thread (sew around middle finger, little finger, palm of your hand and connect these according to pin connections) 
+* Conductive thread (sew around middle finger, little finger, palm of your hand and connect these according to [Pin Connections](https://github.com/m-shahbaz-kharal/Augmented-Reality-Carrom-Board/blob/master/README.md#pin-connections)) 
 * 2 MPU6050 ([this one](https://www.sparkfun.com/products/11028))
 * Arduino UNO R3
 * ESP8266 Wifi Module ([this one](https://www.sparkfun.com/products/13678))
@@ -41,3 +41,18 @@ For making a physical glove controller, here's what you'll need:
 **Arduino -> Player 1 Glove**
 * 2 -> Middle Finger of Glove
 * 3 -> Little Finger of Glove
+**Arduino -> Player 1 MPU6050**
+* 3.3 -> Vcc
+* GND -> GND
+* A4 -> AD0
+* A5 -> SCL
+
+**Arduino -> Player 2 Glove**
+* 8 -> Middle Finger of Glove
+* 9 -> Little Finger of Glove
+**Arduino -> Player 2 MPU6050**
+* 3.3 -> Vcc
+* GND -> GND
+* A4 -> SDA
+* A5 -> SCL
+
