@@ -1,11 +1,11 @@
 # Augmented-Reality-Carrom-Board
 “Augmented Reality” sometimes also called “Mixed Reality” is the new way to experience
 virtual objects in real world. It’s like seeing virtual things blended with the real world,
-through a phone camera and it is so beautiful that you feel like you united both the computer
+through a camera and it is so beautiful that you feel like you united both the computer
 world and your real world in an almost seamless way.
 “Augmented Carrom Board” will use the same technology to make you feel like more closer
-to how you played it on real boards. It’ll scan the environment, project a board to it (visible
-through a phone screen), set up the game for you, you’ll wear a specialized controller and
+to how you played Carrom on real boards. It’ll scan the environment, project a board to it (visible
+through an android phone screen), set up the game for you, you’ll wear a specialized controller and
 there you go place your finger (yes your real hand finger) close to the striker on the board, aim
 like the way you do and flick when ready, the game will capture your hand movements, your aim
 and game board along with the pieces will react like the real game and that is our imagination
@@ -24,6 +24,8 @@ To directly run android apk, just go to **APKs** dir and copy Android Pacakge Fi
 To make changes according to your need open **AR Carrom Board** in Unity (2017.3.1f1 or Higher). Play with it. Build it. Run it.
 
 ### Physical Glove Controller
+**Arduino Code** directory contains the code to be uploaded to Arduino UNO.
+
 For making a physical glove controller, here's what you'll need:
 * 2 pairs of cloth gloves
 * Conductive thread (sew around middle finger, little finger, palm of your hand and connect these according to [Pin Connections](https://github.com/m-shahbaz-kharal/Augmented-Reality-Carrom-Board/blob/master/README.md#pin-connections)) 
@@ -56,3 +58,14 @@ For making a physical glove controller, here's what you'll need:
 * A4 -> SDA
 * A5 -> SCL
 
+#### Running it all
+After installing the APK to your Android device, uploading Arduino code to Arduino UNO and making these connections between Arduino and your gloves, follow these steps:
+1. Power up Arduino.
+2. On your Android device you should see a new Wifi network named **ControllerNetwork**. Connect to it.
+3. Run the game.
+4. Enjoy.
+
+## Developers
+**Muhammad Shahbaz Kharal**
+**Muhammad Luqman**
+**Ahmad Hassan**
