@@ -56,7 +56,7 @@ For making a physical glove controller, here's what you'll need:
   * A4 -> SDA
   * A5 -> SCL
 
-#### Running it all
+## Running it all
 After installing the APK to your Android device, uploading Arduino code to Arduino UNO and making these connections between Arduino and your gloves, follow these steps:
 1. Power up Arduino.
 2. On your Android device you should see a new Wifi network named **ControllerNetwork**. Connect to it.
