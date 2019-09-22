@@ -65,5 +65,7 @@ After installing the APK to your Android device, uploading Arduino code to Ardui
 
 ## Developers
 **Muhammad Shahbaz Kharal**
+
 **Muhammad Luqman**
+
 **Ahmad Hassan**
