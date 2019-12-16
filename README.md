@@ -62,10 +62,3 @@ After installing the APK to your Android device, uploading Arduino code to Ardui
 2. On your Android device you should see a new Wifi network named **ControllerNetwork**. Connect to it.
 3. Run the game.
 4. Enjoy.
-
-## Developers
-**Muhammad Shahbaz Kharal**
-
-**Muhammad Luqman**
-
-**Ahmad Hassan**
